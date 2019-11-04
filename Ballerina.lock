@@ -1,9 +1,9 @@
 org_name = "hemikak"
-version = "1.0.2"
+version = "1.0.3"
 lockfile_version = "1.0.0"
 ballerina_version = "1.0.1"
 
-[[imports."hemikak/zip:1.0.2"]]
+[[imports."hemikak/zip:1.0.3"]]
 org_name = "ballerinax"
 name = "java"
 version = "0.0.0"

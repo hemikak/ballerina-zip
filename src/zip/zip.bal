@@ -21,7 +21,7 @@ import ballerinax/java;
 # + zipPath - Path of the zip file.
 # + outputPath - Output directory.
 # + return - Error if occurred.
-function extract(string zipPath, string outputPath) returns error? {
+public function extract(string zipPath, string outputPath) returns error? {
     if (!file:exists(zipPath)) {
         _ = check file:createDir(zipPath, true);
     }
@@ -34,7 +34,7 @@ function extract(string zipPath, string outputPath) returns error? {
 # + outputPath - The location of the zip file.
 # + files - The list of files/directories.
 # + return - Error if occurred.
-function create(string outputPath, file:FileInfo|string... files) returns error? {
+public function create(string outputPath, file:FileInfo|string... files) returns error? {
     if (!file:exists(check filepath:parent(outputPath))) {
         _ = check file:createDir(check filepath:parent(outputPath), true);
     }
