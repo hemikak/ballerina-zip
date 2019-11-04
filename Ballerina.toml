@@ -1,11 +1,11 @@
 [project]
 org-name = "hemikak"
-version = "1.0.1"
+version = "1.0.2"
 
 license= ["Apache 2.0"]
 authors= ["Hemika Kodikara"]
 keywords= ["zip", "compress", "file", "files", "zip4j"]
-repository= "https://github.com/hemikak/zip"
+repository= "https://github.com/hemikak/ballerina-zip"
 
 [platform]
 target = "java8"
