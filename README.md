@@ -16,5 +16,5 @@ zip:create("hello.zip", "foo", "bar.txt");
 ### Unzip a Zip file.
 ```ballerina
 // creating a zip file and include `foo` folder and `bar.txt` file.
-zip:extract("hello.zip, "moo");
+zip:extract("hello.zip", "moo");
 ```
