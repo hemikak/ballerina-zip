@@ -1,0 +1,18 @@
+[project]
+org-name = "hemikak"
+version = "1.0.0"
+
+license= ["Apache 2.0"]
+authors= ["Hemika Kodikara"]
+keywords= ["zip", "compress", "file", "files", "zip4j"]
+repository= "https://github.com/hemikak/zip"
+
+[platform]
+target = "java8"
+
+  [[platform.libraries]]
+  artifactId = "zip4j"
+  version = "2.2.3"
+  path = "libs/zip4j-2.2.3.jar"
+  groupId = "net.lingala.zip4j"
+  modules = ["zip"]
