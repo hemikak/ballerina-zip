@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import ballerinax/java;
+import ballerina/java;
 
 function newZipFile(handle path) returns handle = @java:Constructor {
     class: "net.lingala.zip4j.ZipFile",

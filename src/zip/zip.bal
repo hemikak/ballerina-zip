@@ -14,7 +14,7 @@
 
 import ballerina/file;
 import ballerina/filepath;
-import ballerinax/java;
+import ballerina/java;
 
 # Extract a zip file to a specific location.
 # 
